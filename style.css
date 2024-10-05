@@ -13,6 +13,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
   background-image: url(./assets/back.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -61,4 +62,14 @@ a:hover {
 }
 .logo:hover {
   cursor: default;
+}
+
+/* Sections */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
 }
