@@ -9,15 +9,28 @@
   </head>
 
   <body>
-
     <nav id="desktop-nav">
-      <div class="logo">YH</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
     <section id="profile">
       <div class="logo">
         <h1 class="title">YUVAL HADAD</h1>
@@ -28,5 +41,6 @@
     <section id="portfolio"></section>
     <section id="contact"></section>
     <footer></footer>
+    <script src="/script.js"></script>
   </body>
 </html>
